@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* padding: 50px; */
+    color: rgb(122, 120, 120);
+  }
+  .main {
+    padding: 10px;
+    /* width: 50%; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  button {
+    width: 80%;
+    background-color: rgb(34, 6, 158);
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+    transition: 0.4s ease-in-out;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: whitesmoke;
+  }
+  /* button:focus {
+    transform: skew(15deg);
+  } */
+  
+  #password {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 24px;
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgb(119, 119, 152);
+  }
+  h2 {
+    color: blue;
+  }
+  .input {
+    width: 100%;
+  }
+  
+  input:focus {
+    outline: 0px;
+    border: none;
+  }
+  #rangee {
+    height: 2px;
+    width: 80%;
+    accent-color: blue;
+  }
+  /* label{
+    border: 1px solid gray;
+  } */
+  .checkbox {
+    margin: 12px 10px;
+    width: 15px;
+    height: 15px;
+    
+  }
+  p{
+    cursor: pointer !important;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 1px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    margin-bottom: 15px;
+  
+    /* vertical-align: middle; */
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    /* vertical-align: middle; */
+    background-color: blue;
+    border-radius: 2px;
+  }
+  
+  input[type="checkbox"]{
+    cursor: pointer;
+  }
+  input {
+    /* position: relative; */
+    /* background-color: red; */
+    width: 70%;
+    color: rgb(119, 119, 152);
+  }
+  i{
+    /* position: absolute; */
+    margin-left: 12px;
+    left: 20px;
+  }
